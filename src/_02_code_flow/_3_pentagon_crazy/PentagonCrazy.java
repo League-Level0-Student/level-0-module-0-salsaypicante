@@ -10,7 +10,7 @@ import java.awt.Color;
 public class PentagonCrazy {
 	
 	public static void main(String[] args) {
-		
+		Robot rob = New robot();
 		//  Create a new Robot
 
 		//  Put the robot's pen down

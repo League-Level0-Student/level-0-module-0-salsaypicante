@@ -1,19 +1,10 @@
-// 1. Drag and drop an image of a cat onto this sketch
-//    a. First find an image of a cat with BIG eyes(use google to search)
-//    b. Right click on the image and select 'Save image As'
-//    c. Rename the image something short (e.g. cat.jpg)
-//    d. Save the image to your computer's desktop
-//    e. Drag and drop the image anywhere on this sketch
 
-
-// This line of code creates a variable to hold your faccate picture
-// You will use it later.
 PImage cat;
 int x=0;
 int y=0;
 
 void setup() {
-  
+  cat = loadImage (
 // 2. The code below loads your cat picture into the program. 
 //     Make sure the file name is correct for the cat image you saved earlier
 cat = loadImage("cat.jpg");
